@@ -1,0 +1,178 @@
+html {
+    font-size: 100%;
+    background: url(../Assets/denim.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    }
+
+body {
+    font-family: "MyriadPro-Regular", sans-serif;
+    }
+
+
+
+/* Font Declarations */
+
+@font-face
+{
+font-family: MyriadPro-Regular;
+font-style: normal;
+src: url('../Fonts/MYRIADPRO-REGULAR.OTF')
+}
+
+@font-face
+{
+font-family: "MyriadPro-Cond";
+font-style: normal;
+src: url('../Fonts/MYRIADPRO-COND.OTF')
+}
+
+@font-face
+{
+font-family: "catull";
+font-style: normal;
+src: url('../Fonts/catull.ttf')
+}
+
+
+
+/* Buttons at the top of the screen */
+
+header {
+    top: 25px;
+    width: 56em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 2em;
+    }
+
+.butz {
+  color: #000000;
+  font-size: 1.5em;
+  background: rgba(114, 159, 226, 0.3);
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  width: 3em;
+  outline: none;
+  font-family: Arial;
+  height: 3em;
+  font-weight: bold;
+  border: none;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.butz:hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+
+/* Container that holds calendar
+ * month-switching buttons and timezone data */
+
+#datesandtimes {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    }
+
+#times {
+    float: left;
+    width: 20%;
+    background: rgba(114, 159, 226, 0.3);
+    border: none;
+    }
+
+#dates {
+    float: left;
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgba(114, 159, 226, 0.3);
+    }
+
+#weather {
+    float: right;
+    width: 20%;
+    background: rgba(114, 159, 226, 0.3);
+    border: none;
+    }
+
+.sidebar {
+  margin-top: 1%;
+}
+
+
+
+/* Timezones */
+
+.tzname {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    }
+
+
+.tzclock {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: auto;
+    font-family: MyriadPro-Cond, sans-serif;
+    }
+
+
+#local {
+  border: 0.5em;
+  border-top: none;
+  border-bottom: none;
+  border-color: transparent;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.9);
+  width: 60%;
+  margin: auto;
+}
+
+#zones {
+  border: 0.5em;
+  border-color: transparent;
+  border-style: solid;
+}
+
+
+#weatherNow {
+  border: 0.5em;
+  border-top: none;
+  border-bottom: none;
+  border-color: transparent;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.9);
+  width: 60%;
+  margin: auto;
+}
+
+
+/* Gear access to options */
+
+.config {
+  right: 0;
+  top: 0;
+  font-size: 2em;
+  position: absolute;
+  margin-top: 0.25em;
+  margin-right: 0.25em;
+}
+
+a.conf {
+  text-decoration: none;
+  color: rgba(114, 159, 226, 0.3);
+}
+
+a.conf:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+

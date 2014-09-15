@@ -1,0 +1,151 @@
+html {
+  background: url(../Assets/denim.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+#container {
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.line {
+  width: 60em;
+  height: 6em;
+  margin-bottom: 1em;
+}
+
+
+.thinline {
+  width: 60em;
+  height: 3em;
+}
+
+
+.box {
+  width: 30em;
+  height: 6em;
+  margin: 0 auto;
+  float: left;
+}
+
+
+.boxwide {
+  width: 60em;
+  height: 6em;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.prefsetbox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.prefsetline {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 55em;
+}
+
+.dropdowns {
+  /*margin-top: 1em;*/
+  display: inline-block;
+}
+
+.picker {
+  margin-left: 2em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.pickerpadding {
+  padding-left: 0.75em;
+}
+
+select {
+  border: none;
+  outline: none;
+  width: 9em;
+  height: 2em;
+  font-size: 1.25em;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+
+
+
+.title {
+  text-align: center;
+  font-family: Arial;
+  background: rgba(114, 159, 226, 0.3);
+  font-weight: bold;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  padding: 5px 10px 5px 10px;
+}
+
+#title {
+  font-size: 1.75em;
+  padding-top: 0.25px;
+  padding-bottom: 0.25px;
+  background: rgba(114, 159, 226, 0.3);
+}
+
+.subtitle {
+  font-size: 1.25em;
+  width: 6em;
+  height: 3em;
+  display: inline-block;
+}
+
+
+.prefsettitle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  height: 4em;
+}
+
+
+/* save button */
+
+#save {
+  width: 6em;
+  height: 3em;
+  border: none;
+}
+
+#save:hover {
+  background: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  
+}
+
+#save:focus {
+  outline: none;
+}
+
+.prefsetsave {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  text-align: center;
+}
+
+
+#status {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+}

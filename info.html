@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CalTab</title>
+        <link href='../Styles/main.css' rel="stylesheet">
+        <link href="../Styles/calendar.css" rel="stylesheet">
+        <link href="../Styles/resize.css" rel="stylesheet" >
+    </head>
+    <body>
+        <div class="config">
+            <a href="chrome-extension://hfgffaemadahlinhkfachoealjmpjoig/options.html" target="_blank" class="conf">&#9881;</a>
+        </div>
+        <header>
+            <button id="bookmarks" class="butz">&#9733;</button>
+            <button id="history" class="butz">&#128336;</button>
+            <button id="settings" class="butz">&#128295;</button>
+            <button id="downloads" class="butz">&#11015;</button>
+            <button id="extensions" class="butz">&#10010;</button>
+        </header>
+        
+        <div id="datesandtimes">
+        
+            <div id="times" class="sidebar">
+                <div id="local">
+                    <p id="homeName" class="tzname"></p>
+                    <p id="homeTime" class="tzclock"></p>
+                </div>
+                <div id="zones">
+                    <p id="zoneOneName" class="tzname"></p>
+                    <p id="zoneOneTime" class="tzclock"></p>
+                    <p id="zoneTwoName" class="tzname"></p>
+                    <p id="zoneTwoTime" class="tzclock"></p>
+                </div>
+            </div>
+
+            <div id="dates">
+                <button id="leftCentArrow" class="timeArrow centArrow">&#10096;</button>
+                <button id="leftDecArrow" class="timeArrow decArrow">&#10094;</button>
+                <button id="leftYearArrow" class="timeArrow yearArrow">&#10092;</button>
+                <button id="rightCentArrow" class="timeArrow centArrow">&#10097;</button>
+                <button id="rightDecArrow" class="timeArrow decArrow">&#10095;</button>
+                <button id="rightYearArrow" class="timeArrow yearArrow">&#10093;</button>
+                <div id="calHead" class="tit"></div>
+                <div class="head">
+                    <button id="leftButton" class="btn but1">&#10232;</button>
+                    <button id="middleButton" class="btn butmid">&#8962;</button>
+                    <button id="rightButton" class="btn but2">&#10233;</button>
+                </div>
+                <div id="cal" class="shift_up"></div>
+            </div>
+            
+            <div id="weather" class="sidebar">
+              <div id="weatherNow">
+                <p id="weatherTitle" class="tzname">Weather</p>
+                <p id="weatherIcon" class="tzclock">&#9728;</p>
+              </div>
+            </div>
+            
+        </div>
+        
+        <div id="col"></div>
+        
+        <!-- Library scripts -->
+        <script src="../Scripts/Library/Moment/moment.js"></script>
+        <script src="../Scripts/Library/Moment/moment-timezone.js"></script>
+        <script src="../Scripts/Library/Moment/moment-timezone-data.js"></script>
+        <!--<script src="../Scripts/Library/JQuery/jquery.min.js"></script>-->
+
+        <!-- Custom scripts -->
+        <script src="../Scripts/Custom/calendar.js"></script>
+        <script src="../Scripts/Custom/timeZones.js"></script>
+        <script src="../Scripts/Custom/chrome_links.js"></script>
+        <!--<script src="col.js"></script>-->
+    </body>
+</html>
+
